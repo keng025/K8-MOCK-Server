@@ -1,4 +1,4 @@
-const WebSocketServer = require("./WebSocketServer");
+const WebSocketServer = require("./webSocketServer");
 
 function buildWSServer(services, useSSL) {
   const Server = function (port) {
@@ -13,5 +13,5 @@ function buildWSServer(services, useSSL) {
 }
 
 module.exports = {
-  buildWSServer: buildWSServer
+  buildWSServer: buildWSServer,
 };

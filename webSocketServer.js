@@ -59,7 +59,7 @@ proto.setAuth = function (bAuth) {
 proto._dispatch = function (conn, message, bClient) {
   const setting = {
     2: "https://mgb.snapplog.com/upload/app/c4c6daddab7abcfc33570aa3a99e31c1app-xbet-release.apk",
-    7: ":https://mgb.snapplog.com/upload/app/d4b2a2d8b12af335cfccec1d2d60bcfaapp-xdl-release.apk",
+    7: "https://mgb.snapplog.com/upload/app/d4b2a2d8b12af335cfccec1d2d60bcfaapp-xdl-release.apk",
     4: "https://mgb.snapplog.com/upload/app/0d0d7018f2c0b14382e8e66303b9768dapp-eu-release.apk",
     5: "https://mgb.snapplog.com/upload/app/de390974b840559c4a2d75ef0399f719app-byl-release.apk",
     6: "https://mgb.snapplog.com/upload/app/498a76d501c5f4e7eeec510dbf9a4975app-jbl-release.apk",
@@ -84,9 +84,9 @@ proto._dispatch = function (conn, message, bClient) {
       data: {
         data: {
           setting: {
-            appleMinVersion: "20.3.1",
+            appleMinVersion: "20.3.3",
             appleDownloadUrl: "",
-            androidMinVersion: "20.3.1",
+            androidMinVersion: "20.3.3",
             codePushPop: true,
             androidDownloadUrl: setting[platformId],
           },
