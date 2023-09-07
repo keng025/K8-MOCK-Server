@@ -84,9 +84,9 @@ proto._dispatch = function (conn, message, bClient) {
       data: {
         data: {
           setting: {
-            appleMinVersion: "20.3.3",
+            appleMinVersion: "20.3.1",
             appleDownloadUrl: "",
-            androidMinVersion: "20.3.3",
+            androidMinVersion: "20.3.1",
             codePushPop: true,
             androidDownloadUrl: setting[platformId],
           },
